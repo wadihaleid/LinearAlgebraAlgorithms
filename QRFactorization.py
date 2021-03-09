@@ -25,7 +25,7 @@ def runCGS (arr):
     return q , r  
         
 
-a = np.array([[12,-51,4,10] , [6,167,-68,200] , [-4,24,-41,-19] , [12,3,4,7] , [2,3,-5,20]])
+a = np.array([[1,1],[2,-1],[-2,4]])
 q , r = runCGS(a)
 print(q)
 print(r)
